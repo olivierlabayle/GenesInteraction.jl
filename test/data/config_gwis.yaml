@@ -1,0 +1,10 @@
+type: gwis
+
+extra_treatments:
+  - 22001
+
+outcome_extra_covariates:
+  - COV_1
+
+extra_confounders:
+  - 21003

@@ -10,5 +10,6 @@ TESTDIR = joinpath(pkgdir(TargeneCore), "test")
     @test include(joinpath(TESTDIR, "inputs_from_estimands.jl"))
     @test include(joinpath(TESTDIR, "inputs_from_config.jl"))
     @test include(joinpath(TESTDIR, "inputs_from_gwas_config.jl"))
+    @test include(joinpath(TESTDIR, "inputs_from_gwis_config.jl"))
     @test include(joinpath(TESTDIR, "sieve_variance.jl"))
 end
